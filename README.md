@@ -1,2 +1,2 @@
 # afro-tube
-Youtube clone which only focuses on African content
+Youtube clone using Rapid API

@@ -1,9 +1,6 @@
 {
   "name": "project_youtube_video_playe",
   "version": "0.1.0",
-  "engines": {
-    "node": "14.17.1"
-  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -36,11 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prepare": "husky install",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "pre-commit": "lint-staged"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -74,11 +67,6 @@
     "install-peers": "^1.0.4",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
